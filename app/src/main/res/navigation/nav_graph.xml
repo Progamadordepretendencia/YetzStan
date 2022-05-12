@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainFragment">
+
+    <fragment
+        android:id="@+id/IMCFragment"
+        android:name="com.example.yetzstan.IMCFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_imc">
+
+        <action
+            android:id="@+id/action_IMCFragment_to_MainFragment"
+            app:destination="@id/MainFragment" />
+        <action
+            android:id="@+id/action_IMCFragment_to_MainFragment2"
+            app:destination="@id/MainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="com.example.yetzstan.MainFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/action_MainFragment_to_IMCFragment"
+            app:destination="@id/IMCFragment" />
+        <action
+            android:id="@+id/action_MainFragment_to_Q1Fragment"
+            app:destination="@id/Q1Fragment" />
+        <action
+            android:id="@+id/action_MainFragment_to_Q2Fragment"
+            app:destination="@id/Q2Fragment" />
+        <action
+            android:id="@+id/action_MainFragment_to_q3Fragment"
+            app:destination="@id/q3Fragment" />
+        <action
+            android:id="@+id/action_MainFragment_to_q4Fragment"
+            app:destination="@id/q4Fragment" />
+        <action
+            android:id="@+id/action_MainFragment_to_q5Fragment"
+            app:destination="@id/q5Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Q1Fragment"
+        android:name="com.example.yetzstan.Q1Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_q1">
+
+        <action
+            android:id="@+id/action_Q1Fragment_to_MainFragment"
+            app:destination="@id/MainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/Q2Fragment"
+        android:name="com.example.yetzstan.Q2Fragment"
+        android:label="terceiro fragmento"
+        tools:layout="@layout/fragment_q2">
+
+        <action
+            android:id="@+id/action_Q2Fragment_to_MainFragment"
+            app:destination="@id/MainFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/q3Fragment"
+        android:name="com.example.yetzstan.Q3Fragment"
+        android:label="fragment_q3"
+        tools:layout="@layout/fragment_q3" >
+        <action
+            android:id="@+id/action_q3Fragment_to_MainFragment"
+            app:destination="@id/MainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/q4Fragment"
+        android:name="com.example.yetzstan.Q4Fragment"
+        android:label="fragment_q4"
+        tools:layout="@layout/fragment_q4" >
+        <action
+            android:id="@+id/action_q4Fragment_to_MainFragment"
+            app:destination="@id/MainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/q5Fragment"
+        android:name="com.example.yetzstan.Q5Fragment"
+        android:label="fragment_q5"
+        tools:layout="@layout/fragment_q5" >
+        <action
+            android:id="@+id/action_q5Fragment_to_MainFragment"
+            app:destination="@id/MainFragment" />
+    </fragment>
+</navigation>

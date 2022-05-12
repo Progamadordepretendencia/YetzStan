@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Meukoltin</string>
+    <string name="action_settings">Configurações</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Primeiro fragmento</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Circunferencia -->
+    <string name="circunferencia_title">Circunferência</string>
+    <string name="circunferencia_raio">Digite um raio</string>
+    <string name="circunferencia_diametro">Diâmetro</string>
+    <string name="circunferencia_diametro_result"></string>
+    <string name="circunferencia_comprimento">Comprimento</string>
+    <string name="circunferencia_comprimento_result"></string>
+    <string name="circunferencia_area">Área</string>
+    <string name="circunferencia_area_result"></string>
+    <!-- Impar ou par -->
+    <string name="imparoupar_title">Divisor de Ímpares</string>
+    <string name="numero_real">Digite um numero</string>
+    <string name="numero_result"></string>
+    <!-- tabuada de multiplicação -->
+    <string name="tabuada_multi_result"></string>
+
+    <!-- tabuada soma do while -->
+    <string name="tabuada_soma_title">Somatório</string>
+    <string name="tabuada_soma_result"></string>
+    <!-- Swicth -->
+    <string name="letras_result"></string>
+
+
+    <string name="calculate">Calcular</string>
+    <string name="hello_first_fragment">I love Rock Roll</string>
+    <string name="hello_second_fragment"> bem vindo ao segundo fragmento</string>
+    <string name="bemvindo3">ola de novo va pra casa a ta tarde</string>
+</resources>
